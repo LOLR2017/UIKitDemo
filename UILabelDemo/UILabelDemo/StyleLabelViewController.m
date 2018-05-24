@@ -30,9 +30,6 @@
     [str addAttribute:NSKernAttributeName value:@5 range:NSMakeRange(15, str.length-15)];
     //还有一些其他的属性，这里就不一一列明，有需要的可以自己看看，试一试。
     
-    
-    
-    
     //设置不限行数显示
     self.styleLabel.numberOfLines = 0;
     //这是多样式文本内容
